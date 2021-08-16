@@ -1,6 +1,6 @@
 FROM python:3.8
 
-COPY ../../../app /app
+COPY ./app /app
 
 COPY ./docker/dev/python/entrypoint.sh /entrypoint.sh
 
