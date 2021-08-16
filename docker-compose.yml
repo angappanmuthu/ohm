@@ -6,7 +6,7 @@ services:
   app:
     build: 
       context: .
-      dockerfile: docker/dev/python/
+      dockerfile: docker/dev/python/Dockerfile
     image: webapp:ohm_django
     volumes:
       - ./app:/app
