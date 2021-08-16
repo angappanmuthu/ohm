@@ -1,5 +1,3 @@
 build:
   docker:
-    web: 
-    - docker/prod/python/Dockerfile
-    - docker/prod/nginx/Dockerfile
+    web: docker/prod/python/Dockerfile
